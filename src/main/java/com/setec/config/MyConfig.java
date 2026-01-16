@@ -9,8 +9,9 @@ public class MyConfig implements WebMvcConfigurer {
 
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		registry.addResourceHandler("/static/**")
+		registry.addResourceHandler("/static/https://java-api-ysn9.onrender.com")
 		.addResourceLocations("file:./myApp/static");
 		//.addResourceLocations("file:/opt/myApp/static"); //for Linux
 	}
 }
+
